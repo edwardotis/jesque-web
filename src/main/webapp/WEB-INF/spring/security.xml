@@ -5,7 +5,9 @@
          xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
 						http://www.springframework.org/schema/security http://www.springframework.org/schema/security/spring-security.xsd">
 
+    <http pattern="/favicon.ico" security="none" />
     <http />
+
     <user-service>
         <user name="${JESQUE_WEB_USERNAME}" password="${JESQUE_WEB_PASSWORD}" authorities="ROLE_USER" />
     </user-service>
