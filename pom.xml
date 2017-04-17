@@ -8,7 +8,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>net.greghaines</groupId>
     <artifactId>jesque-web</artifactId>
-    <version>1.1.0-SNAPSHOT</version>
+    <version>1.2.0-SNAPSHOT</version>
     <packaging>war</packaging>
     <name>Jesque WebApp</name>
     <description>An implementation of the Resque web application in Java</description>
@@ -25,12 +25,12 @@
         <javax.servlet.api.version>3.1.0</javax.servlet.api.version>
         <javax.servlet.jstl.version>1.1.2</javax.servlet.jstl.version>
         <junit.version>4.12</junit.version>
-        <net.greghaines.jesque.version>2.0.2</net.greghaines.jesque.version>
+        <net.greghaines.jesque.version>2.1.1</net.greghaines.jesque.version>
         <org.tuckey.urlrewritefilter.version>4.0.4</org.tuckey.urlrewritefilter.version>
         <org.aspectj.version>1.8.6</org.aspectj.version>
         <org.slf4j.version>1.7.12</org.slf4j.version>
         <org.springframework.version>4.1.6.RELEASE</org.springframework.version>
-        <redis.clients.jedis.version>2.7.2</redis.clients.jedis.version>
+        <redis.clients.jedis.version>2.9.0</redis.clients.jedis.version>
         <taglibs.standard.version>1.1.2</taglibs.standard.version>
         <!-- plugin version properties -->
         <org.apache.maven.plugins.compiler.version>3.3</org.apache.maven.plugins.compiler.version>
