@@ -6,7 +6,9 @@
 						http://www.springframework.org/schema/security http://www.springframework.org/schema/security/spring-security.xsd">
 
     <http pattern="/favicon.ico" security="none" />
-    <http />
+    <http auto-config="true">
+        <csrf disabled="false"/>
+    </http>
 
     <user-service>
         <user name="${JESQUE_WEB_USERNAME}" password="${JESQUE_WEB_PASSWORD}" authorities="ROLE_USER" />
