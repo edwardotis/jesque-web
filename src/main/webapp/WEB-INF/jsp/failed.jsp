@@ -4,6 +4,7 @@
 <%@ taglib uri="http://greghaines.net/jesque/web/tags/jsq" prefix="jsq" %>
 <c:if test="${not poll and empty param.partial}"><jsp:include page="header.jsp" /></c:if>
 <h1>Failed Jobs</h1>
+<c:if test="${not empty failures}">
 <form method="POST" action="<c:url value="/failed/clear" />" class="clear-failed">
 	<input type="hidden"
 		   name="${_csrf.parameterName}"
